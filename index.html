@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>排队网</title>
+		<link rel="shortcut icon" type="text/css" href="favicon.ico"/>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.slider.css" />
+		<script src="http://www.jq22.com/jquery/jquery-1.7.1.js"></script>
+		<script type="text/javascript" src="js/jquery.slider.js"></script>
+		<!--<script type="text/javascript" src="js/jquery.js"></script>-->
+		<script type="text/javascript">
+		
+			jQuery(document).ready(function ($) {
+				$(".slider").slideshow({
+					width: 1423,
+					height: 474,
+					transition: ['bar', 'Rain', 'square', 'squareRandom', 'explode']
+				});
+				$('.spn').eq(0).click(function(){
+				   $('#wctmou').toggleClass('mou');
+				   $('#wtc').toggleClass('mou');
+				   $('#jsh').toggleClass('mou');
+				   $('#rig').toggleClass('mou');
+				   $('#text-one').toggleClass('mou');
+				   $('#text-two').toggleClass('mou');
+				})
+				$('.spn').eq(1).click(function(){
+				   $('#wctmou').toggleClass('mou');
+				   $('#wtc').toggleClass('mou');
+				   $('#jsh').toggleClass('mou');
+				   $('#rig').toggleClass('mou');
+				   $('#text-one').toggleClass('mou');
+				   $('#text-two').toggleClass('mou');
+				})
+			});
+		</script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="header">
+				<div class="top">
+					<div class="tel">
+						客服电话：0755-8839 9918
+					</div>
+					<div class="tubiao">
+						<ul>
+							<li><a href="jvascript:;" class="fst"><div class="bgww"></div></a></li>
+							<li><a href="jvascript:;" class="sco"><div class="bgww"></div></a></li>
+							<li><a href="jvascript:;" class="thr"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="bar">
+					<div class="bar-line">
+						<div class="logo">
+							<a href="javascript:;"></a>
+						</div>
+						<div class="line">
+							<ul>
+								<li><a href="javascript:;">首页</a></li>
+								<li><a href="javascript:;">产品</a></li>
+								<li><a href="anli.html">案例</a></li>
+								<li><a href="news.html">新闻</a></li>
+								<li><a href="javascript:;">服务</a></li>
+								<li><a href="javascript:;">伙伴</a></li>
+								<li><a href="javascript:;">招聘</a></li>
+								<li><a href="javascript:;">关于我们</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		    <div class="contect">
+		    	<div class="donghua">
+		    		<div class="slider">
+						<div><a href="#"><img src="img/12d6.jpg" alt=""></a></div>
+						<div><a href="#"><img src="img/424f.jpg" alt=""></a></div>
+						<div><a href="#"><img src="img/3d97.jpg" alt=""></a></div>
+					</div>
+		    	</div>
+		        <div class="curr">
+		        	<div class="curr-in">
+		        		<ul>
+		        			<li><span></span><a href="javascript:;">餐饮界大咖秀，引领餐饮支付新变革</a>【04-05】</li>
+		        			<li><span></span><a href="javascript:;">微餐厅2月运营报告</a>【03-17】</li>
+		        			<li><span></span><a href="javascript:;">收银员的“消失”——聚食汇·智慧...</a>【03-15】</li>
+		        		</ul>
+		        	</div>
+		        </div>
+		        <div class="products">
+		        	<div class="pro-in">
+		        		<div class="part1">
+		        			<div class="wct mou" id="wctmou">
+		        				<a href="javascript:;"></a>
+		        			</div>
+		        			<div class="jsh mou" id="jsh">
+		        				<span>"聚食汇·智慧云"是顺应互联网发展趋势，结合商家的实际需求和先进的管理理念而研发的集餐厅运营管理、数据分析、O2O营销系统与一体的营销管理系统。</span>
+		        			</div>
+		        			<div class="wtc" id="wtc">
+		        				<a href="javascript:;"></a>
+		        			</div>
+		        			<div class="rig" id="rig">
+		        				<span>"微餐厅"是一款集预定、点菜、会员管理、票券营销及广告传播等多功能的餐饮营销工具。基于微信公众平台研发，是时下移动互联网爆发阶段科学、高效的餐饮营销管家。</span>
+		        			</div>
+		        		</div>
+		        	    <div class="part2">
+		        	    	<ul>
+		        	    		<li class="text-one mou" id="text-one">
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por1"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">智慧云架构</span>
+		        	    					<span class="s2">打造最畅通的线上、线下数据同步运营平台，数据加密云存储，排队网专业技术团队维护</span>
+		        	    				</div>
+		        	    			</div>
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por2"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">运营服务</span>
+		        	    					<span class="s2">全面的餐厅运营分析体系，为决策层提供最科学的数据支持</span>
+		        	    				</div>
+		        	    			</div>
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por3"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">点餐服务</span>
+		        	    					<span class="s2">为餐厅+排队美食App引流线上点餐消费，提升客流量</span>
+		        	    				</div>
+		        	    			</div>
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por4"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">营销支持</span>
+		        	    					<span class="s2">支持灵活多变的促销方案，预定时间系统自动执行，节假日客源滚滚来</span>
+		        	    				</div>
+		        	    			</div>
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por5"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">会员管理</span>
+		        	    					<span class="s2">数据分析顾客消费行为，帮您每天多发掘一个新客户，多维护好一个老客户</span>
+		        	    				</div>
+		        	    			</div>
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por6"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">模块化系统</span>
+		        	    					<span class="s2">系统灵活多变，依据品牌特色给您最适合的功能模块组合</span>
+		        	    				</div>
+		        	    			</div>
+		        	    		</li>
+		        	    		<li class="text-two" id="text-two">
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por7"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">预定</span>
+		        	    					<span class="s2">随时随地在线预定，不排队</span>
+		        	    				</div>
+		        	    			</div>
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por8"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">LBS定位</span>
+		        	    					<span class="s2">精准定位，寻找附近餐厅不再难</span>
+		        	    				</div>
+		        	    			</div>
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por9"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">在线点餐</span>
+		        	    					<span class="s2">在手机上自助选座、点菜、下单</span>
+		        	    				</div>
+		        	    			</div>
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por10"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">会员卡</span>
+		        	    					<span class="s2">会员在线办理、查询、精准营销</span>
+		        	    				</div>
+		        	    			</div>
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por11"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">餐厅手机展示</span>
+		        	    					<span class="s2">将餐厅开到顾客手机上，信息手机展示</span>
+		        	    				</div>
+		        	    			</div>
+		        	    			<div class="product">
+		        	    				<div class="icon" id="por12"></div>
+		        	    				<div class="tex">
+		        	    					<span class="s1">优惠信息</span>
+		        	    					<span class="s2">足不出户，优惠信息全知道</span>
+		        	    				</div>
+		        	    			</div>
+		        	    		</li>
+		        	    	</ul>
+		        	        <span class="spn" id="prve"></span>
+		        	        <span class="spn" id="next"></span>
+		        	    </div>
+		        	</div>
+		        </div>
+		        <div class="part3">
+		        	<div class="parin">
+		        		<div class="topin">
+		        			<div class="pinone">
+		        				<span>合作案例</span>
+		        			</div>
+		        			<div class="xian"></div>
+		        			<div class="pthree">
+		        				<a href="javascript:;">更多>></a>
+		        			</div>
+		        		</div>
+		        	    <div class="textcon">
+		        	    	<div class="textcon-l">
+		        	    		<a href="javascript:;"><img src="img/c68.jpg"></a>
+		        	    		<div class="txt">
+		        	    			<span class="t1">巴里岛国际酒店</span>
+		        	    			<span class="t2">巴里岛国际酒店隶属于北京金奥恒丰国际餐饮管理有限公司（J.O. Management Group...</span>
+		        	    		</div>
+		        	    	</div>
+		        	    	<div class="textcon-r">
+		        	    		<a href="javascript:;"><img src="img/1c1.jpg"></a>
+		        	    		<div class="txt">
+		        	    			<span class="t1">幸福小厨概念餐厅</span>
+		        	    			<span class="t2">在柏树林38号那条窄窄的路上，幸福小厨概念餐厅在那里迎接着南来北往的客人。店面不是很大，却是个时尚概念...</span>
+		        	    		</div>
+		        	    	</div>
+		        	    	<div class="textcon-l">
+		        	    		<a href="javascript:;"><img src="img/56e.jpg"></a>
+		        	    		<div class="txt">
+		        	    			<span class="t1">WALL STREET CAFÉ</span>
+		        	    			<span class="t2">WALL STREET CAFE是神雁旗下跨界品牌，品牌概念源自美国的华尔街金融文化，是中国首家金融主题咖啡厅……</span>
+		        	    		</div>
+		        	    	</div>
+		        	    	<div class="textcon-r">
+		        	    		<a href="javascript:;"><img src="img/7f5.jpg"></a>
+		        	    		<div class="txt">
+		        	    			<span class="t1">江南颐家养生坊</span>
+		        	    			<span class="t2">江南颐家养生坊一直致力于餐饮行业的创新与菜品的开发，主营川菜、养生汤锅、鱼类等，菜品精致，有口皆碑...</span>
+		        	    		</div>
+		        	    	</div>
+		        	    </div>
+		        	</div>
+		        </div>
+		        <div class="news">
+		        	<div class="newsin">
+		        		<div class="topin">
+		        			<div class="pinone">
+		        				<span>行业动态</span>
+		        			</div>
+		        			<div class="xian"></div>
+		        			<div class="pthree">
+		        				<a href="javascript:;">更多>></a>
+		        			</div>
+		        		</div>
+		        		<div class="newdong">
+		        			<div class="news1">
+		        				<div class="new1t">
+		        					<span>行业资讯</span>
+		        					<a href="javascript:;">更多>></a>
+		        				</div>
+		        				<ul>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        				</ul>
+		        			</div>
+		        			<div class="news1">
+		        				<div class="new1t">
+		        					<span>公司新闻</span>
+		        					<a href="javascript:;">更多>></a>
+		        				</div>
+		        				<ul>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        				</ul>
+		        			</div>
+		        			<div class="news1 news3">
+		        				<div class="new1t">
+		        					<span>行业资讯</span>
+		        					<a href="javascript:;">更多>></a>
+		        				</div>
+		        				<ul>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        					<li><a href="javascript:;">味道，究竟对餐饮影响有多大？</a><span>【04.11】</span></li>
+		        				</ul>
+		        			</div>
+		        		</div>
+		        	</div>
+		        </div>
+		    </div>
+		    <div class="footer clearfix">
+		    	<div class="footer-in">
+		    		<div class="foot-t">
+		    			<div class="txone">
+		    				<div class="txone-l">
+		    					<p>关于我们</p>
+		    					<ul>
+		    						<li><a href="javascript:;">创始人致辞</a></li>
+		    						<li><a href="javascript:;">发展历史</a></li>
+		    						<li><a href="javascript:;">公司荣誉</a></li>
+		    						<li><a href="javascript:;">企业文化</a></li>
+		    					</ul>
+		    				</div>
+		    				<div class="txone-l">
+		    					<p>服务</p>
+		    					<ul>
+		    						<li><a href="javascript:;">技术支持</a></li>
+		    						<li><a href="javascript:;">合作事宜</a></li>
+		    					</ul>
+		    				</div>
+		    			</div>
+		    			<div class="txtwo">
+		    				<p>关注我们</p>
+		    				<div class="txtwo-in">
+		    					<ul>
+		    						<li><a href="javascript:;" class="wx"></a><span>微信公众号</span></li>
+		    						<li><a href="javascript:;" class="wb"></a><span>新浪微博</span></li>
+		    						<li><a href="javascript:;" class="yan"></a><span>腾讯微博</span></li>
+		    					</ul>
+		    				</div>
+		    			</div>
+		    			<div class="phone">
+		    				<p class="xixun">咨询热线</p>
+		    				<p class="tell">0755-8839 9918</p>
+		    				<p class="txcon">邮件咨询：bm.cs#paidui.com(#改为@)<br> 
+地址：深圳市南山区高新园南区高新南七道2号豪威科<br>技大厦19层</p>
+		    			</div>
+		    		</div>
+		    		<div class="friend">
+			        	<span>友情链接：</span>
+			        	<a href="javascript:;">排队金融</a>
+		        	</div>
+		        	<div class="fbottom">
+		        		<p>
+		        			<a href="javascript:;">法律公告</a>&nbsp;&nbsp;|&nbsp;&nbsp; 
+			        		<a href="javascript:;">隐私声明</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+			        		<a href="javascript:;">服务条款</a><br>
+			        		©2011-2017 paidui.com All rights reserved&nbsp;&nbsp;|&nbsp;&nbsp;
+			        		<a href="javascript:;">粤ICP备11106709号-3</a>
+			        		<a href="javascript:;"><img src="img/govIcon.gif"></a>
+		        		</p>
+		        	</div>
+		    	</div>
+		    </div>
+		</div>
+	</body>
+</html>
